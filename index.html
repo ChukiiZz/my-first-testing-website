@@ -35,18 +35,71 @@
   .epic {
     color: #fcba03;
   }
+  .genre {
+    color: #00E5FF;
+  }
+  .evolution {
+    color: purple;
+  }
+  .terms {
+    color: yellow;
+  }
+  .table {
+    color: green;
+  }
+  .benifits {
+    color: orange;
+  }
+  .feedback {
+    color: pink;
+  }
+  .home {
+    color: white;
+  }
+  
+  .rgb-text {
+    animation: rgb 3s infinite;
+}
+
+@keyframes rgb {
+    0% {
+        color: red;
+    }
+
+    33% {
+        color: green;
+    }
+
+    66% {
+        color: blue;
+    }
+
+    100% {
+        color: red;
+    }
+}
 </style>
 
 <body>
 
-
-<h1 style="font-family:'Permanent Marker', cursive;">The World Of Video Games</h1>
+<h1  class="rgb-text" id="home" style="font-family:'Permanent Marker', cursive;">The World Of Video Games</h1>
 
 <p><b>Video game</b> is a visual electronic game where a player control images on a video screen using an input device like a controller, keyboard, or touchscreen.</p>
 <p>Video games are a form of digital entertainment that people of all ages enjoy.</p>
 <p>They can be played on computers, gaming consoles, smartphones, and tablets. Over the years, video games have become more advanced, offering realistic graphics, exciting stories, and interactive gameplay. Today, millions of people around the world play video games for fun, learning, and social interaction.</p>
 
-<h2>Popular Games Genres</h2>
+<h2>Quick Navigation</h2>
+<nav>
+  <a class="genre" href="#genre">Popular Games Genres</a> |
+  <a class="evolution" href="#evolution">Evolution Of Video Games</a> |
+  <a class="terms" href="#terms">Gaming Terms</a> |
+  <a class="table" href="#table">Popular Video Games</a> |
+  <a class="links"href="#links">Other Links</a> |
+  <a class="benifits" href="#benifits">Benifits Of Gaming</a> |
+  <a class="feedback" href="#feedback">Feedbacks</a>
+</nav>
+
+<h2 id="genre">Popular Games Genres</h2>
 
 <ul>
 	<li>Action</li>
@@ -59,7 +112,7 @@
 	<li>Sandbox</li>
 </ul>
 
-<h2>Evolution Of Video Games</h2>
+<h2 id="evolution">Evolution Of Video Games</h2>
 
 <ol type="I">
 	<li>Arcade Games</li>
@@ -70,7 +123,7 @@
 	<li>Virtual Reality</li>
 </ol>
 
-<h2>Gaming Terms</h2>
+<h2 id="terms">Gaming Terms</h2>
 
 <dl>
 	<dt>FPS</dt>
@@ -89,9 +142,11 @@
 	<dd>A game with a freely explorable environment</dd>
 </dl>
 	
-	
 <br>
+<hr>	
+<br><br>
 
+<h2 id="table">Popular Games</h2>
 <table class="game-table" border="4" cellspacing="10" cellpadding="30">
 <tr style="background-color: rgba(0, 0, 0);">
 <th>Game</th>
@@ -133,7 +188,7 @@
 
 <br><br> 
 
-<h2>Here are some links to check.</h2>
+<h2 id="links">Here are some links to check.</h2>
 <dl>
   <dt><b>Minecraft</b></dt>
   <dd><a class="minecraft" href="https://www.minecraft.com">Minecraft Official Website</a></dd>
@@ -148,13 +203,14 @@
   <dd><a class="epic" href="https://store.epicgames.com">Official Epic Games Website</a> -A PC gaming platform/store</dd>
 </dl>
 
-<h2>Benifits Of Gaming</h2>
+<h2 id="benifits">Benifits Of Gaming</h2>
 <p>When played in moderation, video games can have several benifits. They can improve hand-eye coordination, develop strategic thinking, and encourage creativity.</p>
 
 <hr>
 <br>
-<h2>Feedbacks</h2>
+<h2 id="feedback">Feedbacks</h2>
   <p>If you have any feedbacks here, feel free to share your favorate part!<br>Simply tell us what you think or simply tell us what we could add.</p>
+  <br>
 <p style="font-size:large">Feedback Form</p>
 <form>
     <label for="name">Name:</label>
@@ -196,6 +252,12 @@
   <p>Created by Ariso, Zirch E. | 10 - Argon</p>
   <p>&copy; The World Of Video Games</p>
 </footer>
+
+<br><br>
+
+<nav>
+  <a class="home" href="#home">Home</a>
+</nav>
 
 </body>
 </html>
